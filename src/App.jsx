@@ -17,11 +17,11 @@ const router = createBrowserRouter([
     path: "",
     element: <Layout />,
     children: [
-      { path: "react-last/", element: <Home /> },
-      { path: "react-last/home", element: <Home /> },
-      { path: "react-last/about", element: <About /> },
-      { path: "react-last/contact", element: <Contact /> },
-      { path: "react-last/portfolio", element: <Display /> },
+      { path: "", element: <Home /> },
+      { path: "home", element: <Home /> },
+      { path: "about", element: <About /> },
+      { path: "contact", element: <Contact /> },
+      { path: "portfolio", element: <Display /> },
     ],
   },
 ]);
