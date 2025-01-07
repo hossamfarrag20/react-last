@@ -22,6 +22,15 @@ const router = createBrowserRouter([
       { path: "about", element: <About /> },
       { path: "contact", element: <Contact /> },
       { path: "portfolio", element: <Display /> },
+      {
+        path: "*",
+        element: (
+          <div className="error-page d-flex flex-column justify-content-center align-items-center">
+            <p>Unexcite page</p>
+            <p>Error 4 0 4 </p>
+          </div>
+        ),
+      },
     ],
   },
 ]);

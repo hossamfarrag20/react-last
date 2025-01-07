@@ -172,7 +172,9 @@ input {
   font-weight: 400;
   padding: 0;
 }
-
+.error-page p{
+  font-size: 40px;
+}
 @media screen and (min-width: 992px) {
   .nav-link-style {
     font-size: 32px;
