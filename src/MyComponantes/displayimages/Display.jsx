@@ -4,12 +4,12 @@ export default function Display() {
   document.getElementById('my-tittle').innerHTML = 'Portfolio';
 
   const allimages = [
-    { image: "../../../public/myimages/poert1.png", id: 1, name: "House" },
-    { image: "../../../public/myimages/port2.png", id: 2, name: "Cake" },
-    { image: "../../../public/myimages/port3.png", id: 3, name: "Circus" },
-    { image: "../../../public/myimages/poert1.png", id: 4, name: "House" },
-    { image: "../../../public/myimages/port2.png", id: 5, name: "Cake" },
-    { image: "../../../public/myimages/port3.png", id: 6, name: "Circus" },
+    { image: "/myimages/poert1.png", id: 1, name: "House" },
+    { image: "/myimages/port2.png", id: 2, name: "Cake" },
+    { image: "/myimages/port3.png", id: 3, name: "Circus" },
+    { image: "/myimages/poert1.png", id: 4, name: "House" },
+    { image: "/myimages/port2.png", id: 5, name: "Cake" },
+    { image: "/myimages/port3.png", id: 6, name: "Circus" },
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);
