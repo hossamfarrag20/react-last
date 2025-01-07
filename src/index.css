@@ -106,11 +106,14 @@
   height: 95vh;
   min-height: 700px;
 }
-.contact-container, .postfolio-container{
+.contact-container{
   height: 100vh;
   min-height: 800px;
 }
-
+.postfolio-container {
+  height: 110vh;
+  min-height: 1000px;
+}
 .input-container,
 .my-input {
   height: 60px;
