@@ -8,7 +8,7 @@ export default function Home() {
       <div className="container">
         <div className="row">
           <div className="user-image d-flex justify-content-center my-5">
-            <img src="/myimages/avataaars.svg" alt="" />
+            <img src={import.meta.env.BASE_URL + "/myimages/avataaars.svg"} alt="" />
           </div>
           <div className="my-container text-white">
             <div className="tittle text-center text-uppercase">
