@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="whole-footer">
+    <div className="whole-footer ">
       <div className="my-footer-container">
         <div className="container py-5">
-          <div className="row text-white text-center py-5 g-5">
+          <div className="row text-white text-center py-5 gy-5">
             <div className="col-md-4">
               <div className="footer-conponant">
                 <h3 className="text-uppercase">Location</h3>
