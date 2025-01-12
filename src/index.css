@@ -151,7 +151,7 @@
 /* ====================== Error Page ============================== */
 
 .error-page{
-  height: 80vh;
+  height: 100vh;
   min-height: 700px;
   background: linear-gradient(90deg, rgba(47,54,64,1) 23%, rgba(24,27,32,1) 100%);
 

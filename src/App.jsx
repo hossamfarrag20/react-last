@@ -15,7 +15,7 @@ import {
 import Layout from "./MyComponantes/Layout/Layout";
 import Display from "./MyComponantes/displayimages/Display";
 import Home from "./MyComponantes/Home/Home";
-
+import Error from "./MyComponantes/Error/Error";
 const router = createHashRouter([
   {
     path: "",
@@ -26,10 +26,7 @@ const router = createHashRouter([
       { path: "about", element: <About /> },
       { path: "contact", element: <Contact /> },
       { path: "portfolio", element: <Display /> },
-      {
-        path: "*",
-        element: <Error />,
-      },
+      { path: "*", element: <Error /> },
     ],
   },
 ]);
