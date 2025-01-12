@@ -326,7 +326,7 @@ input {
 
 .navbar-links {
   display: inline-block;
-  float: right;
+/*   float: right; */
   margin-right: 15px;
   text-transform: uppercase;
 }
