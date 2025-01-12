@@ -7,17 +7,17 @@ import About from "./MyComponantes/About/About";
 import Contact from "./MyComponantes/Contact/Contact";
 import Navbar from "./MyComponantes/NaveBar/Navbar";
 import Footer from "./MyComponantes/Footer/Footer";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
 import Layout from "./MyComponantes/Layout/Layout";
 import Display from "./MyComponantes/displayimages/Display";
 import Home from "./MyComponantes/Home/Home";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "",
     element: <Layout />,
     children: [
-      { path: "react-last/", element: <Home /> },
+      { path: "", element: <Home /> },
       { path: "home", element: <Home /> },
       { path: "about", element: <About /> },
       { path: "contact", element: <Contact /> },
