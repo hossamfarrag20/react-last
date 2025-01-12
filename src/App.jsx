@@ -7,7 +7,11 @@ import About from "./MyComponantes/About/About";
 import Contact from "./MyComponantes/Contact/Contact";
 import Navbar from "./MyComponantes/NaveBar/Navbar";
 import Footer from "./MyComponantes/Footer/Footer";
-import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  createHashRouter,
+  RouterProvider,
+} from "react-router-dom";
 import Layout from "./MyComponantes/Layout/Layout";
 import Display from "./MyComponantes/displayimages/Display";
 import Home from "./MyComponantes/Home/Home";
@@ -24,12 +28,7 @@ const router = createHashRouter([
       { path: "portfolio", element: <Display /> },
       {
         path: "*",
-        element: (
-          <div className="error-page d-flex flex-column justify-content-center align-items-center">
-            <p>Unexcite page</p>
-            <p>Error 4 0 4 </p>
-          </div>
-        ),
+        element: <Error />,
       },
     ],
   },
