@@ -112,7 +112,6 @@
   min-height: 800px;
 }
 .postfolio-container {
-  height: 110vh;
   min-height: 1000px;
 }
 .input-container,
@@ -148,20 +147,6 @@
 .my-button-cont {
   background-color: #1abc9c !important;
 }
-/* ====================== Error Page ============================== */
-
-.error-page {
-  /* overflow: hidden; */
-  height: 100vh;
-  min-height: 900px;
-  background: linear-gradient(
-    90deg,
-    rgba(47, 54, 64, 1) 23%,
-    rgba(24, 27, 32, 1) 100%
-  );
-  /* position: relative;
-  z-index: -1; */
-}
 
 /* =========================Fonts========================== */
 * {
@@ -196,7 +181,18 @@ input {
     font-size: 32px;
   }
 }
-
+/* ===================================================================================== */
+/* ============================== Error Page =========================================== */
+/* ===================================================================================== */
+.error-page {
+  height: 100vh;
+  min-height: 900px;
+  background: linear-gradient(
+    90deg,
+    rgba(47, 54, 64, 1) 23%,
+    rgba(24, 27, 32, 1) 100%
+  );
+}
 @-moz-keyframes rocket-movement {
   100% {
     -moz-transform: translate(1200px, -600px);
@@ -326,16 +322,14 @@ input {
 
 .navbar-links {
   display: inline-block;
-  float: right;
   margin-right: 15px;
   text-transform: uppercase;
 }
 
-ul {
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /*    overflow: hidden;*/
   display: flex;
   align-items: center;
 }
@@ -406,10 +400,9 @@ li a:hover {
   color: #fff;
   transform: scale(1.05);
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .central-body {
-  /*    width: 100%;*/
   padding: 17% 5% 10% 5%;
   text-align: center;
 }
