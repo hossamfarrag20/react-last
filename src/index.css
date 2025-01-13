@@ -320,11 +320,11 @@ input {
   display: inline-block;
 }
 
-.navbar-links {
+/* .navbar-links {
   display: inline-block;
   margin-right: 15px;
   text-transform: uppercase;
-}
+} */
 
 /* ul {
   list-style-type: none;
